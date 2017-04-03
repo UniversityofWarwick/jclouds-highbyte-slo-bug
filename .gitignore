@@ -1,0 +1,29 @@
+# Build artifacts
+/build
+/bin
+/dist
+junit*.properties
+argfile*
+
+# Error dumps, logs
+hs_err*
+ajcore*
+.attach_pid*
+
+# Temporary/cache files
+/.gradle
+.cache
+*~
+*.tmp
+.ensime*
+*.orig
+
+# IntelliJ IDE
+/.idea/*
+!/.idea/codeStyleSettings.xml
+!/.idea/compiler.xml
+!/.idea/encodings.xml
+!/.idea/modules.xml
+!/.idea/gradle.xml
+!/.idea/libraries/Aspects.xml
+*.iws

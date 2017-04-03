@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1875484847/jclouds-highbyte-slo-bug.iml" filepath="$PROJECT_DIR$/.idea/modules/-1875484847/jclouds-highbyte-slo-bug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1875484847/jclouds-highbyte-slo-bug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1875484847/jclouds-highbyte-slo-bug_main.iml" group="jclouds-highbyte-slo-bug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1875484847/jclouds-highbyte-slo-bug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1875484847/jclouds-highbyte-slo-bug_test.iml" group="jclouds-highbyte-slo-bug" />
+    </modules>
+  </component>
+</project>

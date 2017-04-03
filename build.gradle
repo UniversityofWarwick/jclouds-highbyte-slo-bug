@@ -1,0 +1,27 @@
+group 'uk.ac.warwick'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    ext.jcloudsVersion = '2.0.1'
+
+    testCompile 'junit:junit:4.12'
+
+    // For logging to console and build/jclouds.log
+    testCompile 'ch.qos.logback:logback-classic:1.2.2'
+    testCompile 'org.slf4j:slf4j-api:1.7.20'
+
+    testCompile "org.apache.jclouds:jclouds-blobstore:${jcloudsVersion}"
+    testCompile "org.apache.jclouds.driver:jclouds-slf4j:${jcloudsVersion}"
+    testCompile "org.apache.jclouds.api:openstack-swift:${jcloudsVersion}"
+    testCompile "org.apache.jclouds.api:filesystem:${jcloudsVersion}"
+    testCompile 'commons-io:commons-io:2.5'
+}
+
